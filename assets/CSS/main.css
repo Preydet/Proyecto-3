@@ -229,6 +229,18 @@ header{
     background-color: #e67e22;
 }
 
+.subscribe-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Responsive para main*/
 @media screen and (max-width: 600px) {
     .intro h1 {
