@@ -16,20 +16,69 @@ body {
 header{
     background-color: #1a1a1a;
     color: white;
-    padding: 1 rem 2 rem;
+    padding: 1rem 2rem;
 }
 
 .header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 1rem;
 }
+/* Fila superior: logo + búsqueda */
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+/* Logo a la izquierda*/
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
     color: white;
+    flex: 1;
+}
+
+/* Barra de búsqueda centrada */
+.search-form {
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    flex: 2;
+    justify-content: center;
+}
+.search-form input {
+    flex: 1;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-form button {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 0 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* Espaciador del lado derecho*/
+.spacer {
+    flex: 1;
+}
+
+/* Fila inferior:menú + botón login*/
+.bottom-hedear{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .nav-menu ul {
@@ -39,16 +88,22 @@ header{
     margin: 0;
     padding: 0;
 }
-
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-.search-form{
-    display: flex;
-    background-color: white;
+.login-btn {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
-    overflow: hidden;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #e67e22;
 }

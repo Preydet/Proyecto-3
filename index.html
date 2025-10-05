@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecnoShop - TTecnología a tu alcance</title>
+    <title>TecnoShop - Tecnología a tu alcance</title>
     <link rel="stylesheet" href="./assets/CSS/main.css">
 </head>
 <body>
     <!-- Header con logo, navegación, búsqueda e inicio de sesión-->
     <header>
-        <div Class="header-container">
-            <div Class="logo">Tecnoshop</div>
+        <div class="header-container">
+            <div class="top-header">
+                <div class="logo">Tecnoshop</div>
+                <form class="search-form">
+                    <label for="search-input" class="visually-hidden"> Buscar productos</label>
+                    <input type="text" id="search-input" placeholder=" Buscar productos...">
+                    <button type="submit">&#128269</button>
+                </form>    
+                <div class="spacer"></div>
+            </div>
+    <!-- Menú de navegación e inicio de sesión en la fila inferior-->
+        <div class="bottom-header">      
             <nav class="nav-menu">
                 <ul>
                     <li><a href="#main">Inicio</a></li>
@@ -18,13 +28,7 @@
                     <li><a href="#main">Contacto</a></li>
                 </ul>
             </nav>
-            <div class="header-right">
-                <form class="search-form">
-                    <input type="text" placeholder="Buscar productos..."/>
-                    <button type="submit"></button>
-                </form>
-                <button class="login-btn">Iniciar sesión</button>
-            </div>
+            <button class="login-btn"> Iniciar Sesión</button>
         </div>
     </header>
 </body>
