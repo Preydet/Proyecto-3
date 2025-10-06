@@ -1,4 +1,4 @@
-README - PROTOTIPO DE SITIO WEB: TECNOSHOP
+README - PROTOTIPO DE SITIO WEB: TecnoShop
 ------------------------------------------
 
 🎯 OBJETIVO:
@@ -16,28 +16,30 @@ De manera opcional y recomendada, que la vista se adapte a móviles."
 
 📐 ESTRUCTURA DEL SITIO:
 
-✅ a. **Header**
+✅ a. Header
 - Contiene el logo del sitio "TecnoShop".
 - Incluye una barra de búsqueda funcional.
-- Presenta un botón de "Iniciar Sesión".
+- Presenta un botón de "Iniciar Sesión", estilizado con clases de Bootstrap (`btn`, `btn-sm`) más estilos personalizados para mantener colores propios.
 - Navegación horizontal con secciones clave del catálogo (Gaming, Oficina, Electrónica, etc.).
 - Adaptable a dispositivos móviles mediante un botón "hamburguesa".
 
-✅ b. **Main**
+✅ b. Main
 - Mensaje de bienvenida al usuario.
 - Descripción del sitio como proveedor de tecnología.
 - Formulario de suscripción al boletín (input para correo electrónico).
+- Botón "Enviar" con estilos de Bootstrap combinados con estilos personalizados (`btn`, `btn-sm`), manteniendo coherencia visual.
 - Llamado a la acción para recibir ofertas.
 
-✅ c. **Products**
+✅ c. Products
 - Muestra un catálogo de 12 productos tecnológicos.
 - Cada tarjeta de producto contiene imagen, descripción, precio y botón "Agregar al carro".
 - Presentación en formato de grilla responsiva (4 columnas en desktop, 2 en tablet, 1 en móvil).
 
-✅ d. **Footer**
+✅ d. Footer
 - Información de contacto de la tienda.
 - Enlaces a redes sociales (Facebook, Instagram, Twitter, YouTube).
-- Derechos de autor y año.
+- Enlaces a políticas del sitio.
+- Derechos de autor y año actual (2025).
 
 ---
 
@@ -45,35 +47,29 @@ De manera opcional y recomendada, que la vista se adapte a móviles."
 - HTML5 para la estructura del sitio.
 - CSS3 para el estilo y diseño visual.
 - Flexbox y Grid para el layout.
-- Media Queries para diseño responsive (adaptación a pantallas pequeñas como smartphones o dispositivos plegables).
-
+- Media Queries para diseño responsive (adaptación a pantallas pequeñas como smartphones).
+- Bootstrap 5.3 (vía CDN) utilizado para:
+  • Estilizar el botón "Iniciar Sesión".
+  • Estilizar el botón "Enviar" del formulario de suscripción.
+  
 ---
 
 📲 DISEÑO RESPONSIVO:
 - El sitio está optimizado para visualizarse correctamente en dispositivos móviles.
-- Se han aplicado `media queries` para reorganizar el layout en pantallas de menor ancho.
+- Se aplicaron media queries para reorganizar el layout y adaptar los botones y formularios.
 
 ---
 
 📦 CONTENIDO INCLUIDO:
-- Archivo HTML (`index.html`) con la estructura completa del sitio.
-- Archivo CSS (`main.css`) que define el estilo, la responsividad y el comportamiento visual.
-- Imágenes de productos (almacenadas en `/assets/img/`).
-- Recursos para completar los requerimientos de una interfaz inicial funcional y visualmente coherente.
+- index.html: estructura completa del sitio web.
+- main.css: archivo que define los estilos personalizados, layout, colores, y responsividad.
+- /assets/img/: carpeta con imágenes de productos.
+- Bootstrap 5 incluido desde CDN para optimizar diseño de botones.
 
----
 
-📎 OPCIONAL:
-- Se realizó un prototipo previo en papel y/o herramienta como Draw.io para planificar la estructura del sitio antes del desarrollo en código.
 
----
 
-📝 CONCLUSIÓN:
-Este proyecto cumple con los requerimientos solicitados:
-✔ Prototipo simple
-✔ Mensaje de negocio
-✔ Catálogo básico de productos
-✔ Secciones clave (Header, Main, Products, Footer)
-✔ Adaptación a móviles
+
+
 
 
