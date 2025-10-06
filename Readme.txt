@@ -66,6 +66,15 @@ De manera opcional y recomendada, que la vista se adapte a móviles."
 - /assets/img/: carpeta con imágenes de productos.
 - Bootstrap 5 incluido desde CDN para optimizar diseño de botones.
 
+---
+
+🔗 DEPLOY:
+Puedes visitar el sitio web en el siguiente enlace:
+
+👉 https://preydet.github.io/Proyecto-3/
+
+---
+
 
 
 
