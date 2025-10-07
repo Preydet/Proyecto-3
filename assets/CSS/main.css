@@ -148,7 +148,7 @@ header{
     color: white;
     cursor: pointer;
 }
-/*Mostrar en pantallas pequeñas*/
+/*Responsivo*/
 @media(max-width: 750px) {
     /*Ocultar menú*/
     .nav-menu {
